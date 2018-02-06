@@ -11,7 +11,7 @@ canvas {
 }
 
 .page-card{
-  width: 200px;
+          width: 200px;
           height: 600px;
           background-color: white;
 
@@ -38,4 +38,15 @@ canvas {
   display:block;
   border-radius:100%;
   margin-bottom: 20px;
+  border: 0;
+}
+
+.social{
+  padding-top:20px;
+}
+.social a{
+  color: black;
+}
+.social a:hover{
+  color:#b61924;
 }
