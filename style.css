@@ -15,7 +15,6 @@ canvas {
 .page-card{
           width: 400px;
           height: 600px;
-          background-color: white;
 
           position:absolute; /*it can be fixed too*/
           left:0; right:0;
@@ -32,6 +31,10 @@ canvas {
 .page-card h1{
   color : #b61924;
 }
+.intro{
+  background-color: white;
+
+}
 
 .profile-img{
   height: 200px;
@@ -44,6 +47,8 @@ canvas {
 }
 
 .social{
+  background-color: white;
+
   padding-top:20px;
 }
 .social a{
