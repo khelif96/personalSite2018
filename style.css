@@ -12,6 +12,7 @@ canvas {
   vertical-align: bottom;
 }
 
+
 .page-card{
           width: 400px;
           height: 600px;
@@ -59,11 +60,16 @@ canvas {
   -webkit-transition: .5s ease;
   transition: .5s ease;
   color: black;
-  font-size: 15;
+  font-size: 40;
   text-decoration: none;
+  margin:5px;
 }
 .social a:hover{
   -webkit-transition: .5s ease;
   transition: .5s ease;
   color:#b61924;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30;
 }
