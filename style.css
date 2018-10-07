@@ -27,7 +27,7 @@ canvas {
           max-height:100%;
           overflow:auto;
           text-align: center;
-        }
+}
 
 .page-card h1{
   color : #b61924;
@@ -35,7 +35,7 @@ canvas {
 .intro{
   background-color: white;
   color:black;
-  font-size: 18;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
 
 
@@ -57,19 +57,17 @@ canvas {
   padding-top:20px;
 }
 .social a{
-  -webkit-transition: .5s ease;
   transition: .5s ease;
   color: black;
-  font-size: 40;
+  font-size: 40px;
   text-decoration: none;
   margin:5px;
 }
 .social a:hover{
-  -webkit-transition: .5s ease;
   transition: .5s ease;
   color:#b61924;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
-  font-size: 30;
+  font-size: 30px;
 }
