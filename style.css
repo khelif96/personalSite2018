@@ -27,6 +27,9 @@ canvas {
           max-height:100%;
           overflow:auto;
           text-align: center;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  background-color: #ffffff;
 }
 
 .page-card h1{
