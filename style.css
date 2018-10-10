@@ -14,27 +14,35 @@ canvas {
 
 
 .page-card{
-          width: 400px;
-          height: 600px;
+    transition: .5s ease;
+    width: 400px;
+    height: 600px;
 
-          position:absolute; /*it can be fixed too*/
-          left:0; right:0;
-          top:0; bottom:0;
-          margin:auto;
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
 
-          /*this to solve "the content will not be cut when the window is smaller than the content": */
-          max-width:100%;
-          max-height:100%;
-          overflow:auto;
-          text-align: center;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+    text-align: center;
 	  padding-left: 10px;
 	  padding-right: 10px;
 	  background-color: #ffffff;
 }
 
+.page-card.full{
+  transition: .5s ease;
+  width: 90vw;
+  height: 90vh;
+}
+
 .page-card h1{
   color : #b61924;
 }
+
 .intro{
   background-color: white;
   color:black;
@@ -56,9 +64,9 @@ canvas {
 
 .social{
   /*background-color: white;*/
-
   padding-top:20px;
 }
+
 .social a{
   transition: .5s ease;
   color: black;
@@ -66,11 +74,56 @@ canvas {
   text-decoration: none;
   margin:5px;
 }
+
 .social a:hover{
   transition: .5s ease;
   color:#b61924;
 }
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
+}
+
+.links a{
+  transition: .5s ease;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color:black;
+}
+
+.links a:Hover{
+  transition: .5s ease;
+  color:#b61924;
+
+}
+
+.full > center >  .hidefull {
+  display: none;
+}
+
+:not(.full) > center > .showfull {
+  display: none
+}
+.skillCard {
+    font-family: 'Montserrat', sans-serif;
+
+  width: 400px;
+  display: flex;
+  background-color: #fefefe;
+}
+.time {
+  font-size: 40px;
+  text-align: center;
+  positon: absolute;
+    color:#b61924;
+
+}
+
+.skill {
+  margin: auto;
+  margin-left: 15px;
+  font-size: 40px;
+  justify-content: center;
+  width: 100%
 }
